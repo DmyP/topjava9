@@ -19,6 +19,7 @@ import java.util.List;
  * Date: 26.08.2014
  */
 
+
 @Repository
 public class JdbcUserRepositoryImpl implements UserRepository {
 
@@ -35,7 +36,7 @@ public class JdbcUserRepositoryImpl implements UserRepository {
     @Autowired
     public JdbcUserRepositoryImpl(DataSource dataSource) {
         this.insertUser = new SimpleJdbcInsert(dataSource)
-                .withTableName("USERS")
+                .withTableName("users")
                 .usingGeneratedKeyColumns("id");
     }
 
