@@ -8,6 +8,9 @@ import ru.javawebinar.topjava.util.MealsUtil;
  * 06.03.2015.
  */
 public class AuthorizedUser {
+    private AuthorizedUser() {
+    }
+
     public static int id = BaseEntity.START_SEQ;
 
     public static int id() {

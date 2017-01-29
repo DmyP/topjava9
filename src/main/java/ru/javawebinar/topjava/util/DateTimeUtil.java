@@ -12,6 +12,9 @@ import java.time.format.DateTimeFormatter;
  * 07.01.2015.
  */
 public class DateTimeUtil {
+    private DateTimeUtil() {
+    }
+
     public static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
     public static final LocalDate MIN_DATE = LocalDate.of(1, 1, 1);
