@@ -6,6 +6,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.Range;
 import ru.javawebinar.topjava.util.MealsUtil;
 
 import javax.persistence.*;
@@ -62,7 +63,7 @@ public class User extends NamedEntity {
     private Set<Role> roles;
 
     @Column(name = "calories_per_day", columnDefinition = "int default 2000")
-    @Digits(fraction = 0, integer = 4)
+    @Range(min = 10, max = 10000)
     private int caloriesPerDay = MealsUtil.DEFAULT_CALORIES_PER_DAY;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")//, cascade = CascadeType.REMOVE, orphanRemoval = true)
