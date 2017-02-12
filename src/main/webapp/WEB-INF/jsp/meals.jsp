@@ -82,7 +82,7 @@
                             </td>
                             <td>${meal.description}</td>
                             <td>${meal.calories}</td>
-                            <td><a class="btn btn-sm btn-info" onclick="edit()">
+                            <td><a class="btn btn-xs btn-primary">
                                 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                             </a></td>
                             <td><a class="btn btn-xs btn-danger" onclick="deleteRow(${meal.id})">
@@ -98,54 +98,54 @@
 <jsp:include page="fragments/footer.jsp"/>
 
 <div class="modal fade" id="editRow">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h2 class="modal-title"><spring:message code="meals.add"/></h2>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal" id="detailsForm">
-                    <input type="hidden" id="id" name="id">
-                    <div class="form-group">
-                        <label for="dateTime" class="control-label col-xs-3"><spring:message
-                                code="meals.dateTime"/></label>
-                        <div class="col-xs-9">
-                            <input type="datetime-local" class="form-control" id="dateTime" name="dateTime"
-                                   placeholder="<spring:message code="meals.dateTime"/>">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title"><spring:message code="meals.add"/></h2>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" id="detailsForm">
+                        <input type="hidden" id="id" name="id">
+                        <div class="form-group">
+                            <label for="dateTime" class="control-label col-xs-3"><spring:message
+                                    code="meals.dateTime"/></label>
+                            <div class="col-xs-9">
+                                <input type="datetime-local" class="form-control" id="dateTime" name="dateTime"
+                                       placeholder="<spring:message code="meals.dateTime"/>">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="description" class="control-label col-xs-3"><spring:message
-                                code="meals.description"/></label>
+                        <div class="form-group">
+                            <label for="description" class="control-label col-xs-3"><spring:message
+                                    code="meals.description"/></label>
 
-                        <div class="col-xs-9">
-                            <input type="text" class="form-control" id="description" name="description"
-                                   placeholder="<spring:message code="meals.description"/>">
+                            <div class="col-xs-9">
+                                <input type="text" class="form-control" id="description" name="description"
+                                       placeholder="<spring:message code="meals.description"/>">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="calories" class="control-label col-xs-3"><spring:message
-                                code="meals.calories"/></label>
+                        <div class="form-group">
+                            <label for="calories" class="control-label col-xs-3"><spring:message
+                                    code="meals.calories"/></label>
 
-                        <div class="col-xs-9">
-                            <input type="number" class="form-control" id="calories" name="calories" placeholder="1000">
+                            <div class="col-xs-9">
+                                <input type="number" class="form-control" id="calories" name="calories" placeholder="1000">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <div class="col-xs-offset-3 col-xs-9">
-                            <button class="btn btn-primary" type="button" onclick="save()">
-                                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-                            </button>
+                        <div class="form-group">
+                            <div class="col-xs-offset-3 col-xs-9">
+                                <button class="btn btn-primary" type="button" onclick="save()">
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>

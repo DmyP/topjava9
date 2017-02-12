@@ -16,7 +16,6 @@ function add() {
 }
 
 function edit(id) {
-    form[0].submit();
     $('#editRow').modal();
 }
 
