@@ -45,7 +45,7 @@
                 <con:parameters/>
                 <con:representation type="FAULT">
                     <con:mediaType>text/html;charset=utf-8</con:mediaType>
-                    <con:status>500 401</con:status>
+                    <con:status>500 401 403</con:status>
                     <con:params/>
                     <con:element>html</con:element>
                 </con:representation>
@@ -69,8 +69,7 @@
                 </con:representation>
                 <con:request name="AdminGetAll" mediaType="application/json" id="e073a168-8421-4a54-99db-5a321de647a7">
                     <con:settings>
-                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/>
-                        </con:setting>
+                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
                     </con:settings>
                     <con:endpoint>http://localhost:8080</con:endpoint>
                     <con:request/>
@@ -248,7 +247,7 @@
                 <con:parameters/>
                 <con:representation type="FAULT">
                     <con:mediaType>text/html;charset=utf-8</con:mediaType>
-                    <con:status>500</con:status>
+                    <con:status>500 401</con:status>
                     <con:params/>
                     <con:element>html</con:element>
                 </con:representation>
@@ -266,14 +265,13 @@
                 </con:representation>
                 <con:request name="ProfileGet" mediaType="application/json" id="284adf4f-eb7e-44eb-83a9-b038a370efc4">
                     <con:settings>
-                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/>
-                        </con:setting>
+                        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
                     </con:settings>
                     <con:endpoint>http://localhost:8080</con:endpoint>
                     <con:request/>
                     <con:originalUri>http://localhost/topjava/rest/profile</con:originalUri>
                     <con:credentials>
-                        <con:selectedAuthProfile>Basic</con:selectedAuthProfile>
+                        <con:username>user@yandex.ru</con:username><con:password>password</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile>
                         <con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes>
                         <con:authType>Global HTTP Settings</con:authType>
                     </con:credentials>
