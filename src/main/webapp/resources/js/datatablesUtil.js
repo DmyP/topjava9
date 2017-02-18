@@ -2,7 +2,6 @@ var form;
 
 function makeEditable() {
     form = $('#detailsForm');
-
     $(document).ajaxError(function (event, jqXHR, options, jsExc) {
         failNoty(event, jqXHR, options, jsExc);
     });
@@ -12,10 +11,6 @@ function add() {
     // form.find(":input").val("");
     // form.trigger('reset');
     form[0].reset();
-    $('#editRow').modal();
-}
-
-function edit(id) {
     $('#editRow').modal();
 }
 
@@ -32,6 +27,7 @@ function deleteRow(id) {
 
 function updateTableByData(data) {
     datatableApi.clear().rows.add(data).draw();
+}
 
 function save() {
     $.ajax({
@@ -57,11 +53,13 @@ function closeNoty() {
 
 function successNoty(text) {
     closeNoty();
+
     noty({
         text: text,
         type: 'success',
         layout: 'bottomRight',
-        timeout: true
+        theme: "bootstrapTheme",
+        timeout: 3000
     });
 }
 
@@ -70,7 +68,8 @@ function failNoty(event, jqXHR, options, jsExc) {
     failedNote = noty({
         text: 'Failed: ' + jqXHR.statusText + "<br>",
         type: 'error',
-        layout: 'bottomRight'
+        theme: "bootstrapTheme",
+        layout: 'bottomRight',
+        timeout: 3000
     });
-}
 }
