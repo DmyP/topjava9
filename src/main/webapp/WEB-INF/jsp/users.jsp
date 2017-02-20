@@ -47,7 +47,7 @@
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" id="detailsForm">
-                    <input type="text" hidden="hidden" id="id" name="id">
+                    <input type="hidden" id="id" name="id">
 
                     <div class="form-group">
                         <label for="name" class="control-label col-xs-3"><spring:message code="users.name"/></label>
@@ -86,12 +86,4 @@
     </div>
 </div>
 </body>
-<script type="text/javascript">
-    var i18n = [];
-
-    var editTitle ='<spring:message code="users.edit"/>';
-    <c:forEach var='key' items='<%=new String[]{"common.deleted","common.saved","common.enabled","common.disabled","common.failed"}%>'>
-    i18n['${key}'] = '<spring:message code="${key}"/>';
-    </c:forEach>
-</script>
 </html>

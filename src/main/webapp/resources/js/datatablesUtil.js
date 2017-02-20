@@ -9,20 +9,24 @@ function makeEditable() {
 
 function add(title) {
     $('#modalTitle').html(title);
-    // form.find(":input").val("");
-    // form.trigger('reset');
-    form[0].reset();
+    form.find(":input").val("");
     $('#editRow').modal();
 }
 
 function updateRow(id) {
-    $('#modalTitle').html(editTitle);
+    $('#modalTitle').html(i18n[editTitleKey]);
     $.get(ajaxUrl + id, function (data) {
         $.each(data, function (key, value) {
-            form.find("input[name='" + key + "']").val(value);
+            form.find("input[name='" + key + "']").val(
+                key === "dateTime" ? formatDate(value) : value
+            );
         });
         $('#editRow').modal();
     });
+}
+
+function formatDate(date) {
+    return date.replace('T', ' ').substr(0, 16);
 }
 
 function deleteRow(id) {
