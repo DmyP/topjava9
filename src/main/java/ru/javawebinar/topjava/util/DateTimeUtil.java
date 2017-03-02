@@ -8,8 +8,8 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * GKislin
- * 07.01.2015.
+ * DmyP
+ * 07.02.2017.
  */
 public class DateTimeUtil {
     private DateTimeUtil() {

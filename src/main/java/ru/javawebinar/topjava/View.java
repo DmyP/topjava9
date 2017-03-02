@@ -1,7 +1,7 @@
 package ru.javawebinar.topjava;
 
 /**
- * gkislin
+ * DmyP
  * 04.08.2016
  */
 public class View {

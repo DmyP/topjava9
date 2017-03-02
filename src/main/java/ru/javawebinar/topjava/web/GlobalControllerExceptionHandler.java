@@ -12,8 +12,8 @@ import ru.javawebinar.topjava.AuthorizedUser;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * User: gkislin
- * Date: 23.09.2014
+ * User: DmyP
+ * Date: 23.02.2017
  */
 @ControllerAdvice
 public class GlobalControllerExceptionHandler {

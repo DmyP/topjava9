@@ -15,8 +15,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 /**
- * GKislin
- * 11.01.2015.
+ * DmyP
+ * 11.02.2017.
  */
 @SuppressWarnings("JpaQlInspection")
 @NamedQueries({

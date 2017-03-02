@@ -18,8 +18,8 @@ import static ru.javawebinar.topjava.util.ValidationUtil.checkIdConsistent;
 import static ru.javawebinar.topjava.util.ValidationUtil.checkNew;
 
 /**
- * GKislin
- * 06.03.2015.
+ * DmyP
+ * 06.01.2017.
  */
 public abstract class AbstractMealController {
     private static final Logger LOG = LoggerFactory.getLogger(AbstractMealController.class);

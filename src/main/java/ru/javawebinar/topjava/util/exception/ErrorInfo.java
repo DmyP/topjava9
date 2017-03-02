@@ -1,8 +1,8 @@
 package ru.javawebinar.topjava.util.exception;
 
 /**
- * User: gkislin
- * Date: 19.08.2014
+ * User: DmyP
+ * Date: 19.02.2017
  */
 public class ErrorInfo {
     private final String url;

@@ -9,8 +9,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * GKislin
- * 31.05.2015.
+ * DmyP
+ * 31.01.2017.
  */
 public class MealsUtil {
 

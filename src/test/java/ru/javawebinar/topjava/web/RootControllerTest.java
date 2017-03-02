@@ -10,8 +10,8 @@ import static ru.javawebinar.topjava.UserTestData.ADMIN;
 import static ru.javawebinar.topjava.UserTestData.USER;
 
 /**
- * GKislin
- * 10.04.2015.
+ * DmyP
+ * 10.01.2017.
  */
 
 public class RootControllerTest extends AbstractControllerTest {

@@ -15,8 +15,8 @@ import java.util.*;
 import static ru.javawebinar.topjava.util.UserUtil.DEFAULT_CALORIES_PER_DAY;
 
 /**
- * User: gkislin
- * Date: 22.08.2014
+ * User: DmyP
+ * Date: 22.02.2017
  */
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @NamedQueries({

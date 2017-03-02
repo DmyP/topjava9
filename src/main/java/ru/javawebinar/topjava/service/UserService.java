@@ -8,8 +8,8 @@ import ru.javawebinar.topjava.util.exception.NotFoundException;
 import java.util.List;
 
 /**
- * User: gkislin
- * Date: 22.08.2014
+ * User: DmyP
+ * Date: 22.02.2017
  */
 public interface UserService {
 

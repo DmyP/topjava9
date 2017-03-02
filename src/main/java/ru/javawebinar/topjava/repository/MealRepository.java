@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 import java.util.Collection;
 
 /**
- * GKislin
- * 06.03.2015.
+ * DmyP
+ * 06.01.2017.
  */
 public interface MealRepository {
     // null if updated meal do not belong to userId

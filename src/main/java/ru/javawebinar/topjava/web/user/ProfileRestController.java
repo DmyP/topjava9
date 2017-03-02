@@ -9,8 +9,8 @@ import ru.javawebinar.topjava.to.UserTo;
 import javax.validation.Valid;
 
 /**
- * GKislin
- * 06.03.2015.
+ * DmyP
+ * 06.01.2017.
  */
 @RestController
 @RequestMapping(ProfileRestController.REST_URL)

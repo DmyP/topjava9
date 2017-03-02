@@ -11,8 +11,8 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- * GKislin
- * 27.03.2015.
+ * DmyP
+ * 27.01.2017.
  */
 @Repository
 public class DataJpaMealRepositoryImpl implements MealRepository {

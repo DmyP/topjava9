@@ -9,8 +9,8 @@ import java.util.List;
 import static ru.javawebinar.topjava.web.json.JacksonObjectMapper.getMapper;
 
 /**
- * User: gkislin
- * Date: 30.04.2014
+ * User: DmyP
+ * Date: 30.01.2017
  */
 public class JsonUtil {
 

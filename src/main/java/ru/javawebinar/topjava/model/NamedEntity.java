@@ -7,8 +7,8 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
- * User: gkislin
- * Date: 22.08.2014
+ * User: DmyP
+ * Date: 22.02.2017
  */
 @MappedSuperclass
 public class NamedEntity extends BaseEntity {

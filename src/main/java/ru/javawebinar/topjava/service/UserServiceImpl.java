@@ -22,8 +22,8 @@ import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFound;
 import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFoundWithId;
 
 /**
- * GKislin
- * 06.03.2015.
+ * DmyP
+ * 06.01.2017.
  */
 @Service("userService")
 public class UserServiceImpl implements UserService, UserDetailsService {

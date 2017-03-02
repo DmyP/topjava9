@@ -3,7 +3,7 @@ package ru.javawebinar.topjava;
 import org.springframework.test.context.ActiveProfilesResolver;
 
 /**
- * gkislin
+ * DmyP
  * 18.01.2017
  */
 //http://stackoverflow.com/questions/23871255/spring-profiles-simple-example-of-activeprofilesresolver

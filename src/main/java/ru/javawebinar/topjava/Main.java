@@ -1,8 +1,8 @@
 package ru.javawebinar.topjava;
 
 /**
- * User: gkislin
- * Date: 05.08.2015
+ * User: DmyP
+ * Date: 05.01.2017
  *
  * @link http://caloriesmng.herokuapp.com/
  * @link https://github.com/JavaOPs/topjava

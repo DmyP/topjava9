@@ -16,8 +16,8 @@ import static ru.javawebinar.topjava.TestUtil.mockAuthorize;
 import static ru.javawebinar.topjava.UserTestData.USER;
 
 /**
- * User: gkislin
- * Date: 22.08.2014
+ * User: DmyP
+ * Date: 22.02.2017
  */
 public class SpringMain {
     public static void main(String[] args) {

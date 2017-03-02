@@ -7,8 +7,8 @@ import org.springframework.util.StringUtils;
 import java.util.regex.Pattern;
 
 /**
- * GKislin
- * 05.01.2015.
+ * DmyP
+ * 05.02.2017.
  */
 
 public class PasswordUtil {

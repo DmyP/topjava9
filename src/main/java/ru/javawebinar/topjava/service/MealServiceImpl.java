@@ -12,8 +12,8 @@ import java.util.Collection;
 import static ru.javawebinar.topjava.util.ValidationUtil.checkNotFoundWithId;
 
 /**
- * GKislin
- * 06.03.2015.
+ * DmyP
+ * 06.01.2017.
  */
 @Service
 public class MealServiceImpl implements MealService {

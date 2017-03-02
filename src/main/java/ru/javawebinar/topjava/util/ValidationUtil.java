@@ -4,8 +4,8 @@ import ru.javawebinar.topjava.HasId;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
 
 /**
- * User: gkislin
- * Date: 14.05.2014
+ * User: DmyP
+ * Date: 14.01.2017
  */
 public class ValidationUtil {
     private ValidationUtil() {

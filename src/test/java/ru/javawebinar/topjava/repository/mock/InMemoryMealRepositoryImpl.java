@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * GKislin
- * 15.09.2015.
+ * DmyP
+ * 15.01.2017.
  */
 @Repository
 public class InMemoryMealRepositoryImpl implements MealRepository {

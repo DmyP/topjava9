@@ -11,8 +11,8 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 /**
- * User: gkislin
- * Date: 29.08.2014
+ * User: DmyP
+ * Date: 29.02.2017
  */
 @Repository
 @Transactional(readOnly = true)

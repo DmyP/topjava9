@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 
 /**
- * GKislin
- * 06.01.2015.
+ * DmyP
+ * 06.02.2017.
  *
  * This class wrap every entity by Wrapper before assertEquals in order to compare them by comparator
  * Default comparator compare by String.valueOf(entity)

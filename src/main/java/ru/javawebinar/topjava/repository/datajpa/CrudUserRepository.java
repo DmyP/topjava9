@@ -13,7 +13,7 @@ import ru.javawebinar.topjava.model.User;
 import java.util.List;
 
 /**
- * gkislin
+ * DmyP
  * 02.10.2016
  */
 @Repository

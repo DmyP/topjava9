@@ -5,7 +5,7 @@ import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.to.UserTo;
 
 /**
- * GKislin
+ * DmyP
  */
 public class UserUtil {
 

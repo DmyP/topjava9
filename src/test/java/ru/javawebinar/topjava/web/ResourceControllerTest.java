@@ -9,8 +9,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * GKislin
- * 10.04.2015.
+ * DmyP
+ * 10.01.2017.
  */
 public class ResourceControllerTest extends AbstractControllerTest {
 

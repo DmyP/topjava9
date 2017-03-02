@@ -5,8 +5,8 @@ import org.hamcrest.Description;
 import ru.javawebinar.topjava.web.json.JsonUtil;
 
 /**
- * GKislin
- * 05.01.2015.
+ * DmyP
+ * 05.02.2017.
  */
 abstract public class TestMatcher<T> extends BaseMatcher<String> {
     protected T expected;

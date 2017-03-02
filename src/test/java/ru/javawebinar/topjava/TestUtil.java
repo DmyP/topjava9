@@ -10,8 +10,8 @@ import ru.javawebinar.topjava.model.User;
 import java.io.UnsupportedEncodingException;
 
 /**
- * GKislin
- * 05.01.2015.
+ * DmyP
+ * 05.02.2017.
  */
 public class TestUtil {
 
